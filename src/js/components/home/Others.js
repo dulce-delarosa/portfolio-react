@@ -11,13 +11,13 @@ class Others extends Component {
 				<ul className="home__others__list">
 					<li className="home__others__list__item">
 						<a className="home__others__list__item__target" target="_blank" href="https://novicap.com/">
-							<img src={"/images/home-novicap.jpg"} />
+							<img src={"images/home-novicap.jpg"} />
 							<div className="home__others__list__item__target__title">Novicap</div>
 						</a>
 					</li>
 					<li className="home__others__list__item">
 						<a className="home__others__list__item__target" target="_blank" href="http://silesia-vodka.com/">
-							<img src={"/images/home-silesia.png"} />
+							<img src={"images/home-silesia.png"} />
 							<div className="home__others__list__item__target__title">Silesia</div>
 						</a>
 					</li>

@@ -17,7 +17,7 @@ class Devex extends Component {
 						</div>
 					</a>
 				</div>
-				<img className="home__devex__img" src={"/images/home-devex.png"} />
+				<img className="home__devex__img" src={"images/home-devex.png"} />
 			</div>
     );
   }
