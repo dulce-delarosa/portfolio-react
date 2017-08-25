@@ -1,0 +1,31 @@
+@import 'variables/colors';
+@import 'variables/fonts';
+@import 'variables/responsive';
+
+@import 'mixins/bem';
+@import 'mixins/home-company';
+@import 'mixins/positioning';
+
+@import 'common/ResetStyle';
+@import 'common/Utilities';
+@import 'common/Layout';
+@import 'common/Diagonal';
+
+@import 'components/MainNav';
+@import 'components/home/Home';
+@import 'components/home/Header';
+@import 'components/home/Hitch';
+@import 'components/home/Devex';
+@import 'components/home/Company';
+@import 'components/home/Others';
+
+
+body {
+	background: $color-main-bg;
+	color: $color-text;
+	font: $font-size-base $font;
+	height: 100%;
+	margin: 0;
+	overflow-x: hidden;
+	padding: 0;
+}

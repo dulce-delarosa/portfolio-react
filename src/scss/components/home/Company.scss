@@ -1,0 +1,32 @@
+.home {
+	@include element('company') {
+		position: absolute;
+		@media(min-width: $responsive-lg){
+			height: 300px;
+			text-align: center;
+			width: 23.61%;
+		}
+		@include element('mask'){
+			@media(min-width: $responsive-lg){
+				@include center-center;
+			}
+		}
+
+		@include element('role') {
+			@include home-company-details;
+			font: $font-sm $font-header;
+		}
+		@include element('name') {
+			@include home-company-details;
+			font: $font-xl $font-header;
+			text-transform: capitalize;
+			@media (max-width: 500px) {
+				font: $font-lg $font-header;
+			}
+		}
+		@include element('description') {
+			@include home-company-details;
+		}
+	}	
+}
+

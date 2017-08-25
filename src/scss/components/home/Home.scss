@@ -1,0 +1,17 @@
+.home {
+	overflow: hidden;
+	@include element('company') {
+		@include element('mask') {
+			color: $color-text;
+			@media(min-width: $responsive-lg){
+				transition: background-color 0.5s ease;
+				background: white;
+				display: block;
+				height: inherit;
+				&:hover {
+					background: $color-highlight;
+				}
+			}
+		}
+	}
+}

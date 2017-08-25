@@ -1,0 +1,331 @@
+@font-face {
+  font-family: 'Avenir-Roman';
+  src: url("fonts/Avenir-Roman.otf") format("opentype"), url("fonts/Avenir-Roman.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Avenir-Black';
+  src: url("fonts/Avenir-Black.otf") format("opentype"), url("fonts/Avenir-Black.ttf") format("truetype"); }
+/* 16px */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h4, h5, h6, p, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-size: 100%; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.right {
+  float: right; }
+
+.left {
+  float: left; }
+
+@media (min-width: 1023px) {
+  .pull-left {
+    float: left !important; } }
+
+@media (min-width: 1023px) {
+  .pull-right {
+    float: right !important; } }
+
+a {
+  text-decoration: none; }
+
+::selection {
+  background: #ffff00; }
+
+footer {
+  font: 0.707em "Avenir-Roman", sans-serif;
+  margin-top: -30px;
+  position: relative;
+  right: 5%;
+  text-align: right;
+  z-index: 10; }
+
+.container {
+  margin: 0 auto;
+  max-width: 100%;
+  min-width: 320px;
+  position: relative;
+  width: 1440px;
+  z-index: 5; }
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 1023px) {
+  .col-lg {
+    float: left;
+    width: 61.7%;
+    /*889px*/ } }
+
+@media (min-width: 1023px) {
+  .col-md {
+    float: left;
+    width: 38.2%;
+    /*550px*/ } }
+
+@media (min-width: 1023px) {
+  .col-sm {
+    float: left;
+    width: 23.61%;
+    /*340px*/ } }
+
+.diagonal {
+  transform: skewX(30deg);
+  transform-origin: 0 0;
+  background: #66FFCC;
+  display: block;
+  height: 1000px;
+  position: absolute;
+  top: 106px;
+  /* in 276px */
+  width: 38.2%;
+  z-index: -1000; }
+  @media (max-width: 1023px) {
+    .diagonal {
+      width: 50%; } }
+
+.main-nav {
+  position: fixed;
+  text-align: right;
+  top: 0;
+  width: 100%;
+  z-index: 10000; }
+  .main-nav__item {
+    background: #66FFCC;
+    color: #000000;
+    display: inline-block;
+    letter-spacing: 0.02em;
+    font: 0.707em "Avenir-Black", sans-serif;
+    padding: 20px; }
+    .main-nav__item:hover {
+      background: #ffff00; }
+
+.home {
+  overflow: hidden; }
+  .home__company__mask {
+    color: #000000; }
+    @media (min-width: 1023px) {
+      .home__company__mask {
+        transition: background-color 0.5s ease;
+        background: white;
+        display: block;
+        height: inherit; }
+        .home__company__mask:hover {
+          background: #ffff00; } }
+
+.home__header {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 300px;
+  text-align: center; }
+  .home__header__wrap {
+    line-height: 3em;
+    margin: 50px auto 0; }
+    .home__header__wrap h1 {
+      font: 1.414em "Avenir-Black", sans-serif; }
+    .home__header__wrap span {
+      color: #40e4ae;
+      font: 1.414em "Avenir-Black", sans-serif; }
+    @media (min-width: 769px) {
+      .home__header__wrap {
+        line-height: 4em;
+        margin: 27px auto 0; }
+        .home__header__wrap h1 {
+          font: 2.827em "Avenir-Black", sans-serif; }
+        .home__header__wrap span {
+          font: 5.5em "Avenir-Black", sans-serif; } }
+
+.home__hitch {
+  position: relative;
+  padding: 220px 0 200px; }
+  @media (min-width: 1023px) {
+    .home__hitch {
+      padding: 170px 0 200px; } }
+  .home__hitch__company {
+    right: 5%;
+    top: 14%; }
+    @media (min-width: 500px) {
+      .home__hitch__company {
+        top: 10%; } }
+    @media (min-width: 1023px) {
+      .home__hitch__company {
+        right: 0;
+        top: 30%; } }
+  .home__hitch__img {
+    position: relative;
+    width: 100%; }
+    @media (min-width: 1023px) {
+      .home__hitch__img {
+        left: 62px;
+        width: 75%;
+        z-index: 100; } }
+
+.home__devex {
+  position: relative; }
+  .home__devex__company {
+    bottom: 85%;
+    left: 5%; }
+    @media (min-width: 767px) and (max-width: 1023px) {
+      .home__devex__company {
+        bottom: 17%;
+        left: 5%; } }
+    @media (min-width: 1023px) {
+      .home__devex__company {
+        left: 0;
+        top: 0; } }
+  .home__devex__img {
+    position: relative;
+    width: 107%;
+    top: 105px; }
+    @media (min-width: 767px) {
+      .home__devex__img {
+        top: 0; } }
+    @media (min-width: 1023px) {
+      .home__devex__img {
+        left: 20%;
+        width: 90%;
+        z-index: 100; } }
+  .home__devex__diagonal {
+    height: 1490px; }
+    @media (min-width: 764px) and (max-width: 1022px) {
+      .home__devex__diagonal {
+        left: 3%; } }
+    @media (min-width: 1023px) {
+      .home__devex__diagonal {
+        top: 300px; } }
+
+.home__company {
+  position: absolute; }
+  @media (min-width: 1023px) {
+    .home__company {
+      height: 300px;
+      text-align: center;
+      width: 23.61%; } }
+  @media (min-width: 1023px) {
+    .home__company__mask {
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -webkit-box-align: center;
+      align-items: center;
+      justify-content: center; } }
+  .home__company__role {
+    display: block;
+    text-align: right;
+    font: 0.707em "Avenir-Black", sans-serif; }
+  .home__company__name {
+    display: block;
+    text-align: right;
+    font: 3.998em "Avenir-Black", sans-serif;
+    text-transform: capitalize; }
+    @media (max-width: 500px) {
+      .home__company__name {
+        font: 2.827em "Avenir-Black", sans-serif; } }
+  .home__company__description {
+    display: block;
+    text-align: right; }
+
+.home__others {
+  margin: 120px 0 100px; }
+  @media (min-width: 1023px) {
+    .home__others {
+      margin: 120px 0 200px; } }
+  .home__others__title {
+    display: block;
+    font: 1.414em "Avenir-Black", sans-serif;
+    left: 4%;
+    margin-bottom: 20px;
+    position: relative; }
+  .home__others__list__item {
+    margin: 0 auto 40px;
+    width: 90%; }
+    @media (min-width: 1023px) {
+      .home__others__list__item {
+        display: inline-block;
+        margin: 0;
+        margin-left: 4%;
+        width: 45%; } }
+    .home__others__list__item__target {
+      display: block;
+      position: relative; }
+      .home__others__list__item__target__title {
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        -webkit-box-align: center;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+        color: #000000;
+        font: 3.998em "Avenir-Black", sans-serif;
+        bottom: 40px;
+        left: 40px;
+        position: absolute;
+        right: 40px;
+        top: 40px; }
+        .home__others__list__item__target__title:hover {
+          border: 20px solid #ffff00; }
+    .home__others__list__item img {
+      width: 100%; }
+
+body {
+  background: #f7f7f7;
+  color: #000000;
+  font: 1em "Avenir-Roman", sans-serif;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0; }
+
+/*# sourceMappingURL=app.css.map */

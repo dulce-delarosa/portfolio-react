@@ -1,0 +1,29 @@
+.home {
+	@include element('header') {
+		@include center-center;
+		background: white;
+		height: 300px;
+		text-align: center;
+		@include element('wrap') {
+			line-height: 3em;
+			margin: 50px auto 0;
+			h1 {
+				font: $font-md $font-header;
+			}
+			span {
+				color: $color-primary-text;
+				font: $font-md $font-header;
+			}
+			@media (min-width: 769px) {
+				line-height: 4em;
+				margin: 27px auto 0;
+				h1 {
+					font: $font-lg $font-header;
+				}
+				span {
+					font: 5.5em $font-header;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+.home {
+	@include element('others') {
+		margin: 120px 0 100px;
+		@media (min-width: $responsive-lg) {
+			margin: 120px 0 200px;
+		}
+		@include element('title') {
+			display: block;
+			font: $font-md $font-header;
+			left: 4%;
+			margin-bottom: 20px;
+			position: relative;
+		}
+		@include element("list") {
+			@include element("item") {
+				margin: 0 auto 40px;
+				width: 90%;
+				@media (min-width: $responsive-lg) {
+					display: inline-block;
+					margin: 0;
+					margin-left: 4%;
+					width: 45%;
+				}
+				@include element('target') {
+					display: block;
+					position: relative;
+					@include element('title') {
+						@include center-center;
+
+						border: 1px solid;
+						color: $color-text;
+						font: $font-xl $font-header;
+
+			    	bottom: 40px;
+			    	left: 40px;
+						position: absolute;
+			    	right: 40px;
+			    	top: 40px;
+						&:hover {
+							border: 20px solid $color-highlight;
+						}
+					}
+				}
+				img {
+					width: 100%;
+				}
+			}
+		}
+	}
+}

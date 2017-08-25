@@ -1,0 +1,37 @@
+//Layout
+.container {
+	margin: 0 auto;
+	max-width: 100%;
+	min-width: 320px;
+	position: relative;
+	width: 1440px;
+	z-index: 5;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.col-lg {
+	@media (min-width: $responsive-lg) {
+		float: left;
+		width: 61.7%;   /*889px*/
+	}
+}
+
+.col-md {
+	@media (min-width: $responsive-lg) {
+		float: left;
+		width: 38.2%;   /*550px*/
+	}
+}
+
+.col-sm {
+	@media (min-width: $responsive-lg) {
+		float: left;
+		width: 23.61%;  /*340px*/
+	}
+}

@@ -1,0 +1,39 @@
+.home {
+	@include element('devex') {
+		position: relative;
+		@include element('company') {
+			bottom: 85%;
+			left: 5%;
+			@media(min-width: $responsive-md) and (max-width: $responsive-lg){
+				bottom: 17%;
+				left: 5%;
+			}
+			@media(min-width: $responsive-lg) {
+				left: 0;
+				top: 0;
+			}
+		}
+		@include element('img') {
+			position: relative;
+			width: 107%;
+			top: 105px;
+			@media(min-width: $responsive-md){
+				top: 0;
+			}
+			@media(min-width: $responsive-lg){
+				left: 20%;
+				width: 90%;
+				z-index: 100;
+			}
+		}
+		@include element('diagonal') {
+			height: 1490px;
+			@media(min-width: 764px) and (max-width: 1022px){
+				left: 3%;
+			}
+			@media(min-width: $responsive-lg){
+				top: 300px;
+			}
+		}
+	}
+}

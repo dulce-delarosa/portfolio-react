@@ -1,0 +1,21 @@
+//Include Fonts
+@font-face {
+  font-family: 'Avenir-Roman';
+  src: url('fonts/Avenir-Roman.otf') format('opentype'),
+       url('fonts/Avenir-Roman.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Avenir-Black';
+	src: url('fonts/Avenir-Black.otf') format('opentype'),
+	     url('fonts/Avenir-Black.ttf') format('truetype');
+}
+
+$font:        'Avenir-Roman', sans-serif;
+$font-header: 'Avenir-Black', sans-serif;
+
+$font-xl:					3.998em;
+$font-lg:					2.827em;
+$font-md:					1.414em;
+$font-size-base: 	1em; /* 16px */
+$font-sm:					0.707em;
