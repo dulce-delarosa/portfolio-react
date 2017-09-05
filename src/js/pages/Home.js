@@ -5,6 +5,7 @@ import Header from '../components/home/Header';
 import Hitch from '../components/home/Hitch';
 import Devex from '../components/home/Devex';
 import Others from '../components/home/Others';
+import SocialMedia from '../components/SocialMedia';
 
 class Home extends Component {
   render() {
@@ -16,6 +17,7 @@ class Home extends Component {
 	        <Hitch />
 	        <Devex />
 	        <Others />
+	        <SocialMedia />
 	      </div>
       </div>
     );

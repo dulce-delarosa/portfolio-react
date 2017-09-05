@@ -126,7 +126,6 @@ footer {
 
 .main-nav {
   position: fixed;
-  text-align: right;
   top: 0;
   width: 100%;
   z-index: 10000; }
@@ -139,6 +138,33 @@ footer {
     padding: 20px; }
     .main-nav__item:hover {
       background: #ffff00; }
+
+.home__social {
+  position: relative;
+  z-index: 2100; }
+  .home__social__text {
+    font: 1.414em "Avenir-Roman", sans-serif;
+    margin: 40px; }
+  .home__social__list {
+    margin: 0 auto;
+    bottom: 60px;
+    position: relative;
+    text-align: center; }
+    .home__social__list li {
+      display: inline-block;
+      margin: 0 20px; }
+      .home__social__list li a {
+        display: block; }
+    @media (min-width: 767px) {
+      .home__social__list {
+        position: fixed;
+        bottom: 10px; }
+        .home__social__list li {
+          display: list-item;
+          margin: 10px 0; } }
+    @media (min-width: 767px) and (max-width: 1440px) {
+      .home__social__list {
+        left: 20px; } }
 
 .home {
   overflow: hidden; }
