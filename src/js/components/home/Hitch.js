@@ -8,9 +8,9 @@ class Hitch extends Component {
     return (
 			<div className="home__hitch group">
 				<span className="diagonal" />
-				<img className="home__hitch__img" src={"images/home-hitch.png"} />
+				<img className="home__hitch__img" alt="HitchHQ homepage screenshot" src={"images/home-hitch.png"} />
 				<div className="home__company home__hitch__company">
-					<a className="home__company__mask" target="_blank" href="https://www.hitchhq.com/">
+					<a className="home__company__mask" target="_blank" title="HitchHQ detail page" href="#/hitch">
 						<div className="home__company__wrap">
 							<CompanyRole>Current job as Lead designer</CompanyRole>
 							<CompanyName>Hitch</CompanyName>

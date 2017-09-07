@@ -143,7 +143,7 @@ footer {
   position: relative;
   z-index: 2100; }
   .home__social__text {
-    font: 1.414em "Avenir-Roman", sans-serif;
+    font: 1.618em "Avenir-Roman", sans-serif;
     margin: 40px; }
   .home__social__list {
     margin: 0 auto;
@@ -192,21 +192,19 @@ footer {
   height: 300px;
   text-align: center; }
   .home__header__wrap {
-    line-height: 3em;
-    margin: 50px auto 0; }
+    margin-top: 54px; }
     .home__header__wrap h1 {
-      font: 1.414em "Avenir-Black", sans-serif; }
+      font: 1.618em "Avenir-Black", sans-serif;
+      padding: 0 50px; }
     .home__header__wrap span {
       color: #40e4ae;
-      font: 1.414em "Avenir-Black", sans-serif; }
-    @media (min-width: 769px) {
-      .home__header__wrap {
-        line-height: 4em;
-        margin: 27px auto 0; }
-        .home__header__wrap h1 {
-          font: 2.827em "Avenir-Black", sans-serif; }
-        .home__header__wrap span {
-          font: 5.5em "Avenir-Black", sans-serif; } }
+      font: 2.618em "Avenir-Black", sans-serif;
+      line-height: 1.618em; }
+    @media (min-width: 767px) {
+      .home__header__wrap h1 {
+        font: 2.618em "Avenir-Black", sans-serif; }
+      .home__header__wrap span {
+        font: 4.236em "Avenir-Black", sans-serif; } }
 
 .home__hitch {
   position: relative;
@@ -291,11 +289,11 @@ footer {
   .home__company__name {
     display: block;
     text-align: right;
-    font: 3.998em "Avenir-Black", sans-serif;
+    font: 4.236em "Avenir-Black", sans-serif;
     text-transform: capitalize; }
     @media (max-width: 500px) {
       .home__company__name {
-        font: 2.827em "Avenir-Black", sans-serif; } }
+        font: 2.618em "Avenir-Black", sans-serif; } }
   .home__company__description {
     display: block;
     text-align: right; }
@@ -307,7 +305,7 @@ footer {
       margin: 120px 0 200px; } }
   .home__others__title {
     display: block;
-    font: 1.414em "Avenir-Black", sans-serif;
+    font: 1.618em "Avenir-Black", sans-serif;
     left: 4%;
     margin-bottom: 20px;
     position: relative; }
@@ -334,7 +332,7 @@ footer {
         justify-content: center;
         border: 1px solid;
         color: #000000;
-        font: 3.998em "Avenir-Black", sans-serif;
+        font: 4.236em "Avenir-Black", sans-serif;
         bottom: 40px;
         left: 40px;
         position: absolute;

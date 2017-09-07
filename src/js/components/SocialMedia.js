@@ -60,16 +60,16 @@ class Contact extends Component {
 			<div className="home__social">
 				<ul className="home__social__list">
 					<li>
-						<a href="https://github.com/dulce-delarosa" target="_blank">{this.renderGithubIcon()}</a>
+						<a href="https://github.com/dulce-delarosa" target="_blank" title="Dulce github account">{this.renderGithubIcon()}</a>
 					</li>
 					<li>
-						<a href="https://www.linkedin.com/in/dulce-de-la-rosa-8b2ba5b/" target="_blank">{this.renderLinkedinIcon()}</a>
+						<a href="https://www.linkedin.com/in/dulce-de-la-rosa-8b2ba5b/" target="_blank" title="Dulce Linkedin account">{this.renderLinkedinIcon()}</a>
 					</li>
 					<li>
-						<a href="https://twitter.com/DeLaR0sa" target="_blank">{this.renderTwitterIcon()}</a>
+						<a href="https://twitter.com/DeLaR0sa" target="_blank"  title="Dulce Twitter account">{this.renderTwitterIcon()}</a>
 					</li>
 					<li>
-						<a href="https://www.instagram.com/dulcedelarosa/" target="_blank">{this.renderInstagramIcon()}</a>
+						<a href="https://www.instagram.com/dulcedelarosa/" target="_blank" title="Dulce Instagram account">{this.renderInstagramIcon()}</a>
 					</li>
 				</ul>
 			</div>

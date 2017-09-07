@@ -5,23 +5,22 @@
 		height: 300px;
 		text-align: center;
 		@include element('wrap') {
-			line-height: 3em;
-			margin: 50px auto 0;
+			margin-top: 54px;
 			h1 {
-				font: $font-md $font-header;
+				font: 1.618em $font-header;
+				padding: 0 50px;
 			}
 			span {
 				color: $color-primary-text;
-				font: $font-md $font-header;
+				font: $font-lg $font-header;
+				line-height: 1.618em;
 			}
-			@media (min-width: 769px) {
-				line-height: 4em;
-				margin: 27px auto 0;
+			@media (min-width: $responsive-md) {
 				h1 {
 					font: $font-lg $font-header;
 				}
 				span {
-					font: 5.5em $font-header;
+					font: $font-xl $font-header;
 				}
 			}
 		}
