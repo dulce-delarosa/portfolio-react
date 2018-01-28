@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://dulce-delarosa.github.io/app-portfolio",
+  "homepage" : "https://dulce-delarosa.github.io/app-portfolio/",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
