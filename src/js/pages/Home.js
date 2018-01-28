@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import '../../app.css';
-import MainNav from '../components/MainNav';
 import Header from '../components/home/Header';
 import Hitch from '../components/home/Hitch';
 import Devex from '../components/home/Devex';
@@ -12,7 +11,6 @@ class Home extends Component {
     return (
       <div className="home">
       	<div className="container">
-	      	<MainNav />
 	        <Header />
 	        <Hitch />
 	        <Devex />

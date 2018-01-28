@@ -11,7 +11,7 @@ class Devex extends Component {
 				<div className="home__company home__devex__company">
 					<a className="home__company__mask" target="_blank" title="Devex detail page" href="https://www.devex.com/">
 						<div className="home__company__wrap">
-							<CompanyRole>Product designer & Frontend dev.</CompanyRole>
+							<CompanyRole>Product designer &amp; Frontend dev.</CompanyRole>
 							<CompanyName>Dev<span>ex</span></CompanyName>
 							<CompanyDescription>Platform for the global<br/>development<br/>community</CompanyDescription>
 						</div>

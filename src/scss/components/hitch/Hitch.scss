@@ -20,7 +20,8 @@
 			font: $font-lg $font-header;
 			margin: 0 auto 10px;
 			padding-bottom: 10px;
-			width: 252px;
+			text-align: center;
+			width: 270px;
 		}
 		span {
 			display: block;
@@ -36,7 +37,7 @@
 		}
 	}
 	@include element('branding') {
-		background: url('/images/hitch-bg-guides.svg') no-repeat 0 50px;
+		background: url('/images/hitch/hitch-bg-guides.svg') no-repeat 0 50px;
 		@media(min-width: 1200px) {
 			height: 1500px;
 		}
@@ -79,10 +80,17 @@
 						width: 41.5%;
 					}
 					img {
+						box-shadow: 0 50px 100px 0 rgba(0, 0, 0, 0.1);
 						width: 100%;
 					}
 					li {
 						margin-bottom: 33px;
+					}
+				}
+				.responsive-list {
+					@media(max-width: $responsive-lg) {
+						margin-top: 20px;
+						margin-bottom: 100px;
 					}
 				}
 			}
@@ -95,13 +103,6 @@
 				img {
 					margin: 17px 0 20px;
 					width: 100%;
-				}
-				@media(min-width: $responsive-md) and (max-width: $responsive-lg) {
-					margin: 0 auto;
-					width: 50%;
-					img {
-						margin-bottom: 20px;
-					}
 				}
 				@media(min-width: $responsive-lg) and (max-width: $responsive-xl) {
 					top: 180px;
@@ -117,8 +118,13 @@
 
 	@include element('product') {
 		h2 {
-			margin-top: 120%;
 			margin-bottom: 10px;
+			@media(min-width: $responsive-lg) {
+				margin-top: 120%;
+			}
+		}
+		h3 {
+			font: $font-md $font-header;
 		}
 		@include element('download') {
 			padding: 3px 10px;
@@ -151,6 +157,12 @@
     	left: -105px;
 			position: relative;
 			width: 17%;
+		}
+		@include element('wrap') {
+			@media(max-width: $responsive-lg) {
+				margin: 30px auto 80px;
+				width: 90%;
+			}
 		}
 	}
 }

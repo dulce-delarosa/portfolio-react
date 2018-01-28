@@ -10,9 +10,9 @@ class Hitch extends Component {
 				<span className="diagonal" />
 				<img className="home__hitch__img" alt="HitchHQ homepage screenshot" src={"images/home-hitch.png"} />
 				<div className="home__company home__hitch__company">
-					<a className="home__company__mask" target="_blank" title="HitchHQ detail page" href="#/hitch">
+					<a className="home__company__mask" title="HitchHQ detail page" href="#/hitch">
 						<div className="home__company__wrap">
-							<CompanyRole>Current job as Lead designer</CompanyRole>
+							<CompanyRole>Lead designer  &amp; Frontend dev.</CompanyRole>
 							<CompanyName>Hit<span>ch</span></CompanyName>
 							<CompanyDescription>API platform</CompanyDescription>
 						</div>

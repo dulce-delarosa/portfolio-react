@@ -5,8 +5,8 @@ class MainNav extends Component {
     return (
 			<nav className="main-nav">
 		    <a className="main-nav__item" href="/">Home</a>
-		    {/*<a className="main-nav__item" href="/about">About</a>*/}
-		    <a className="main-nav__item" title="Dulce contact page" href="#/contact">Contact</a>
+		  {/*<a className="main-nav__item" href="/about">About</a>
+		     <a className="main-nav__item" title="Dulce contact page" href="#/contact">Contact</a>*/}
 			</nav>
     );
   }

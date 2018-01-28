@@ -20,6 +20,28 @@
   }
 }
 
+.hide-sm {
+	@media (max-width: 1022px) {
+		display: none;
+	}
+}
+
+.hide-lg {
+	@media (min-width: $responsive-lg) {
+		display: none;
+	}
+}
+
+.responsive-list {
+	@media(max-width: $responsive-md) {
+		margin: 0 auto;
+		width: 90%;
+	}
+	@media(min-width: $responsive-md) and (max-width: $responsive-lg) {
+		margin: 0 auto;
+		width: 50%;
+	}
+}
 
 //UI
 
@@ -28,7 +50,8 @@ a {
 }
 
 ::selection {
-	background: $color-highlight;
+	background: #333333;
+	color: white;
 }
 
 .link {

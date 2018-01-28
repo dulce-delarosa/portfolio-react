@@ -64,11 +64,29 @@ table {
   .pull-right {
     float: right !important; } }
 
+@media (max-width: 1022px) {
+  .hide-sm {
+    display: none; } }
+
+@media (min-width: 1023px) {
+  .hide-lg {
+    display: none; } }
+
+@media (max-width: 767px) {
+  .responsive-list {
+    margin: 0 auto;
+    width: 90%; } }
+@media (min-width: 767px) and (max-width: 1023px) {
+  .responsive-list {
+    margin: 0 auto;
+    width: 50%; } }
+
 a {
   text-decoration: none; }
 
 ::selection {
-  background: #ffff00; }
+  background: #333333;
+  color: white; }
 
 .link {
   background: #66FFCC;
@@ -121,7 +139,7 @@ footer {
 .col {
   margin: 0 auto;
   width: 90%; }
-  @media (min-width: 1023px) {
+  @media (min-width: 767px) {
     .col {
       width: 50%; } }
   @media (min-width: 1023px) {
@@ -237,7 +255,7 @@ footer {
     top: 14%; }
     @media (min-width: 500px) {
       .home__hitch__company {
-        top: 10%; } }
+        top: 7%; } }
     @media (min-width: 1023px) {
       .home__hitch__company {
         right: 0;
@@ -391,7 +409,8 @@ footer {
     font: 2.618em "Avenir-Black", sans-serif;
     margin: 0 auto 10px;
     padding-bottom: 10px;
-    width: 252px; }
+    text-align: center;
+    width: 270px; }
   .hitch__header span {
     display: block;
     text-align: center; }
@@ -402,11 +421,11 @@ footer {
     margin: 0 auto;
     width: 90%;
     text-align: left; }
-    @media (min-width: 1023px) {
+    @media (min-width: 767px) {
       .hitch__header__wrap {
         width: 50%; } }
 .hitch__branding {
-  background: url("/images/hitch-bg-guides.svg") no-repeat 0 50px; }
+  background: url("/images/hitch/hitch-bg-guides.svg") no-repeat 0 50px; }
   @media (min-width: 1200px) {
     .hitch__branding {
       height: 1500px; } }
@@ -421,13 +440,13 @@ footer {
     box-shadow: 0 50px 100px 0 rgba(0, 0, 0, 0.1);
     display: block;
     margin: -50px auto 0; }
-    @media (min-width: 1023px) {
+    @media (min-width: 767px) {
       .hitch__branding__logo-img {
         width: 50%; } }
   .hitch__branding__logo-description-wrap {
     margin: 0 auto;
     width: 90%; }
-    @media (min-width: 1023px) {
+    @media (min-width: 767px) {
       .hitch__branding__logo-description-wrap {
         width: 50%; } }
   .hitch__branding__style__subtitle {
@@ -450,9 +469,14 @@ footer {
         .hitch__branding__style__color__list {
           width: 41.5%; } }
       .hitch__branding__style__color__list img {
+        box-shadow: 0 50px 100px 0 rgba(0, 0, 0, 0.1);
         width: 100%; }
       .hitch__branding__style__color__list li {
         margin-bottom: 33px; }
+    @media (max-width: 1023px) {
+      .hitch__branding__style__color .responsive-list {
+        margin-top: 20px;
+        margin-bottom: 100px; } }
   .hitch__branding__style__font {
     position: relative;
     top: 40px; }
@@ -461,21 +485,19 @@ footer {
     .hitch__branding__style__font img {
       margin: 17px 0 20px;
       width: 100%; }
-    @media (min-width: 767px) and (max-width: 1023px) {
-      .hitch__branding__style__font {
-        margin: 0 auto;
-        width: 50%; }
-        .hitch__branding__style__font img {
-          margin-bottom: 20px; } }
-    @media (min-width: 1023px) and (max-width: 2100px) {
+    @media (min-width: 1023px) and (max-width: 1100px) {
       .hitch__branding__style__font {
         top: 180px; } }
-    @media (min-width: 2100px) {
+    @media (min-width: 1100px) {
       .hitch__branding__style__font {
         top: 293px; } }
 .hitch__product h2 {
-  margin-top: 120%;
   margin-bottom: 10px; }
+  @media (min-width: 1023px) {
+    .hitch__product h2 {
+      margin-top: 120%; } }
+.hitch__product h3 {
+  font: 1.618em "Avenir-Black", sans-serif; }
 .hitch__product__download {
   padding: 3px 10px;
   margin: 10px 10px 0 0; }
@@ -501,6 +523,10 @@ footer {
   left: -105px;
   position: relative;
   width: 17%; }
+@media (max-width: 1023px) {
+  .hitch__product__wrap {
+    margin: 30px auto 80px;
+    width: 90%; } }
 
 body {
   background: #f7f7f7;
