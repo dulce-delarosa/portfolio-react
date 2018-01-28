@@ -13,6 +13,7 @@ class Hitch extends Component {
     			<div className="home__company home__hitch__company">
     				<a className="home__company__mask">
     					<div className="home__company__wrap">
+                // <embed type="image/svg+xml" src="images/arrow-link-animation.svg" />
     						<CompanyRole>Lead designer  &amp; Frontend dev.</CompanyRole>
     						<CompanyName>Hit<span>ch</span></CompanyName>
     						<CompanyDescription>API platform</CompanyDescription>
