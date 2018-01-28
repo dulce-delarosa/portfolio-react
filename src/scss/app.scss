@@ -5,6 +5,7 @@
 @import 'mixins/bem';
 @import 'mixins/home-company';
 @import 'mixins/positioning';
+@import 'mixins/layout';
 
 @import 'common/ResetStyle';
 @import 'common/Utilities';
@@ -19,6 +20,9 @@
 @import 'components/home/Devex';
 @import 'components/home/Company';
 @import 'components/home/Others';
+
+@import 'components/hitch/Hitch';
+
 
 
 body {

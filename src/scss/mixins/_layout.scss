@@ -1,0 +1,7 @@
+@mixin basic-layout {
+	margin: 0 auto;
+	width: 90%;
+	@media(min-width: $responsive-lg) {
+		width: 50%;
+	}
+}

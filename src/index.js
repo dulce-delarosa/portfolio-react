@@ -13,7 +13,7 @@ const Routes = () => (
 	    <Route path="/about" component={About}/>
 	    <Route path="/contact" component={Contact}/>
 	    <Route path="/hitch" component={HitchHQ}/>
-	    <footer><div className="container">Dulce De La Rosa © Copyright 2017</div></footer>
+	    <footer><div className="container">Dulce De La Rosa © Copyright 2018</div></footer>
 	   </div>
   </HashRouter>
 )

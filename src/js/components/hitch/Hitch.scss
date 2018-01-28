@@ -1,0 +1,156 @@
+.hitch {
+	h2 {
+		font: $font-lg $font-header;
+		margin: 0;
+	}
+	h3 {
+		margin: 30px 0 10px;
+	}
+	p {
+		line-height: 1.7em;
+	}
+	@include element('header') {
+		text-align: center;
+		@include center-center;
+		background: $color-hitch;
+		color: white;
+		height: 400px;
+		h1 {
+			border-bottom: 1px solid;
+			font: $font-lg $font-header;
+			margin: 0 auto 10px;
+			padding-bottom: 10px;
+			width: 252px;
+		}
+		span {
+			display: block;
+			text-align: center;
+		}
+		p {
+			line-height: 1.7em;
+			margin-top: 40px;
+		}
+		@include element('wrap') {
+			@include basic-layout;
+			text-align: left;
+		}
+	}
+	@include element('branding') {
+		background: url('/images/hitch-bg-guides.svg') no-repeat 0 50px;
+		@media(min-width: 1200px) {
+			height: 1500px;
+		}
+		@media(min-width: $responsive-lg) and (max-width: 1200px) {
+			height: 1400px;
+		}
+		h3 {
+			font: $font-md $font-header;
+		}
+
+		@include element('logo-img') {
+			@include basic-layout;
+			box-shadow: 0 50px 100px 0 rgba(0,0,0,0.1);
+			display: block;
+			margin: -50px auto 0;
+		}
+		@include element('logo-description-wrap') {
+			@include basic-layout;
+		}
+		@include element('style') {
+			@include element('subtitle') {
+				display: none;
+				@media(min-width: $responsive-lg) {
+					color: $color-text;
+					display: block;
+					position: relative;
+					top: 279px;
+				}
+			}
+			@include element('color') {
+				position: relative;
+				top: 65px;
+				@media(min-width: $responsive-lg) and (max-width: 1200px) {
+					top: 90px;
+				}
+
+				@include element('list') {
+					display: inline-block;
+					@media(min-width: $responsive-lg) and (max-width: 1200px) {
+						width: 41.5%;
+					}
+					img {
+						width: 100%;
+					}
+					li {
+						margin-bottom: 33px;
+					}
+				}
+			}
+			@include element('font') {
+				position: relative;
+				top: 40px;
+				h3 {
+					margin: 0;
+				}
+				img {
+					margin: 17px 0 20px;
+					width: 100%;
+				}
+				@media(min-width: $responsive-md) and (max-width: $responsive-lg) {
+					margin: 0 auto;
+					width: 50%;
+					img {
+						margin-bottom: 20px;
+					}
+				}
+				@media(min-width: $responsive-lg) and (max-width: $responsive-xl) {
+					top: 180px;
+				}
+				@media(min-width: $responsive-xl) {
+					top: 293px;
+				}
+			}
+		}
+
+	}
+
+
+	@include element('product') {
+		h2 {
+			margin-top: 120%;
+			margin-bottom: 10px;
+		}
+		@include element('download') {
+			padding: 3px 10px;
+			margin: 10px 10px 0 0;
+		}
+		@include element('img1') {
+			width: 67%;
+		}
+		@include element('img2') {
+			margin: 100px 0;
+			width: 37%;
+		}
+		@include element('img3') {
+			box-shadow: 0 50px 100px 0 rgba(0, 0, 0, 0.1);
+	    left: 7.5%;
+	    position: relative;
+	    top: -212px;
+			width: 44.5%;
+		}
+		@include element('img4') {
+			width: 66%;
+		}
+		@include element('img5') {
+    	left: 75px;
+    	position: relative;
+			top: -358px;
+			width: 17%;
+		}
+		@include element('img6') {
+    	left: -105px;
+			position: relative;
+			width: 17%;
+		}
+	}
+}

@@ -18,20 +18,36 @@
 .col-lg {
 	@media (min-width: $responsive-lg) {
 		float: left;
-		width: 61.7%;   /*889px*/
+		width: 75%;
+	}
+}
+
+.col-md2 {
+	@media (min-width: $responsive-lg) {
+		float: left;
+		width: 67%;
 	}
 }
 
 .col-md {
 	@media (min-width: $responsive-lg) {
 		float: left;
-		width: 38.2%;   /*550px*/
+		width: 50%;
 	}
 }
 
 .col-sm {
 	@media (min-width: $responsive-lg) {
 		float: left;
-		width: 23.61%;  /*340px*/
+		width: 33.3%;
 	}
+}
+
+.col {
+	@include basic-layout;
+	@media (min-width: $responsive-lg) {
+		float: left;
+		width: 25%;
+	}
+
 }

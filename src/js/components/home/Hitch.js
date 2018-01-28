@@ -13,7 +13,7 @@ class Hitch extends Component {
 					<a className="home__company__mask" target="_blank" title="HitchHQ detail page" href="#/hitch">
 						<div className="home__company__wrap">
 							<CompanyRole>Current job as Lead designer</CompanyRole>
-							<CompanyName>Hitch</CompanyName>
+							<CompanyName>Hit<span>ch</span></CompanyName>
 							<CompanyDescription>API platform</CompanyDescription>
 						</div>
 					</a>

@@ -31,6 +31,14 @@ a {
 	background: $color-highlight;
 }
 
+.link {
+	background: $color-primary;
+	color: $color-text;
+	display: inline-block;
+	&:hover {
+		background: $color-highlight;
+	}
+}
 
 footer {
 	font: $font-sm $font;
