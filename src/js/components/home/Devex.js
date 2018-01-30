@@ -12,6 +12,7 @@ class Devex extends Component {
   				<div className="home__company home__devex__company">
   					<a className="home__company__mask">
   						<div className="home__company__wrap">
+                <embed className="home__company__arrow" type="image/svg+xml" src="images/arrow-link-animation.svg" />
   							<CompanyRole>Product designer &amp; Frontend dev.</CompanyRole>
   							<CompanyName>Dev<span>ex</span></CompanyName>
   							<CompanyDescription>Platform for the global<br/>development<br/>community</CompanyDescription>

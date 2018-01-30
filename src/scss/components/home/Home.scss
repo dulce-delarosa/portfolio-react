@@ -13,5 +13,12 @@
 				}
 			}
 		}
+		@include element('arrow') {
+			@media(min-width: $responsive-lg) {
+				position: absolute;
+				right: 0;
+				top: 30px;
+			}
+		}
 	}
 }
