@@ -2,10 +2,9 @@
 	@include element('header') {
 		@include center-center;
 		background: white;
-		height: 300px;
+		height: 270px;
 		text-align: center;
 		@include element('wrap') {
-			margin-top: 54px;
 			h1 {
 				font: 1.618em $font-header;
 				padding: 0 50px;

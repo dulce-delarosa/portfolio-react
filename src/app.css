@@ -148,13 +148,12 @@ footer {
       width: 25%; } }
 
 .diagonal {
-  transform: skewX(30deg);
   transform-origin: 0 0;
   background: #66FFCC;
   display: block;
   height: 1000px;
   position: absolute;
-  top: 106px;
+  top: 100px;
   /* in 276px */
   width: 38.2%;
   z-index: -1000; }
@@ -207,14 +206,12 @@ footer {
 .home {
   overflow: hidden; }
   .home__company-details {
-    float: right;
     position: relative;
-    right: 4%;
     width: 20%; }
     .home__company-details p {
       color: #000000;
-      font-size: 1.309em;
-      margin-bottom: 10%; }
+      line-height: 1.618em;
+      margin-top: 10%; }
     .home__company-details__title {
       color: #000000;
       display: block;
@@ -224,8 +221,9 @@ footer {
       border-top: 1px solid #DEDEDE;
       color: #000000;
       display: inline-block;
-      margin-bottom: 5%;
-      padding-top: 5px; }
+      margin-bottom: 7%;
+      padding-top: 5px;
+      width: 170px; }
 
 .home__header {
   display: -ms-flexbox;
@@ -237,29 +235,29 @@ footer {
   align-items: center;
   justify-content: center;
   background: white;
-  height: 300px;
+  height: 270px;
   text-align: center; }
-  .home__header__wrap {
-    margin-top: 54px; }
+  .home__header__wrap h1 {
+    font: 1.618em "Avenir-Black", sans-serif;
+    padding: 0 50px; }
+  .home__header__wrap span {
+    color: #40e4ae;
+    font: 2.618em "Avenir-Black", sans-serif;
+    line-height: 1.618em; }
+  @media (min-width: 767px) {
     .home__header__wrap h1 {
-      font: 1.618em "Avenir-Black", sans-serif;
-      padding: 0 50px; }
+      font: 2.618em "Avenir-Black", sans-serif; }
     .home__header__wrap span {
-      color: #40e4ae;
-      font: 2.618em "Avenir-Black", sans-serif;
-      line-height: 1.618em; }
-    @media (min-width: 767px) {
-      .home__header__wrap h1 {
-        font: 2.618em "Avenir-Black", sans-serif; }
-      .home__header__wrap span {
-        font: 4.236em "Avenir-Black", sans-serif; } }
+      font: 4.236em "Avenir-Black", sans-serif; } }
 
 .home__hitch {
   position: relative;
-  padding: 220px 0 200px; }
-  @media (min-width: 1023px) {
-    .home__hitch {
-      padding: 170px 0 200px; } }
+  padding: 200px 0 150px; }
+  .home__hitch .home__company-details {
+    float: right;
+    right: 3%; }
+  .home__hitch .diagonal {
+    transform: skewX(30deg); }
   .home__hitch__img {
     position: relative;
     width: 100%; }
@@ -272,37 +270,21 @@ footer {
 
 .home__devex {
   position: relative; }
-  .home__devex__company {
-    bottom: 85%;
-    left: 5%; }
-    @media (min-width: 767px) and (max-width: 1023px) {
-      .home__devex__company {
-        bottom: 17%;
-        left: 5%; } }
-    @media (min-width: 1023px) {
-      .home__devex__company {
-        left: 0;
-        top: 0; } }
   .home__devex__img {
     position: relative;
-    width: 107%;
-    top: 105px; }
-    @media (min-width: 767px) {
-      .home__devex__img {
-        top: 0; } }
+    width: 100%; }
     @media (min-width: 1023px) {
       .home__devex__img {
-        left: 20%;
-        width: 90%;
+        float: right;
+        left: 0;
+        width: 75%;
         z-index: 100; } }
-  .home__devex__diagonal {
-    height: 1490px; }
-    @media (min-width: 764px) and (max-width: 1022px) {
-      .home__devex__diagonal {
-        left: 3%; } }
-    @media (min-width: 1023px) {
-      .home__devex__diagonal {
-        top: 300px; } }
+  .home__devex .home__company-details {
+    float: left;
+    left: 3%; }
+  .home__devex .diagonal {
+    transform: skewX(-30deg);
+    left: 50%; }
 
 .home__company {
   position: absolute; }

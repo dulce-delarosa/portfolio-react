@@ -1,12 +1,11 @@
 .diagonal {
-	transform: skewX(30deg);
 	transform-origin: 0 0;
 
 	background: $color-primary;
 	display: block;
 	height: 1000px;
 	position: absolute;
-	top: 106px; /* in 276px */
+	top: 100px; /* in 276px */
 	width: 38.2%;
 	z-index: -1000;
 	@media (max-width: $responsive-lg) {

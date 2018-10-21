@@ -6,22 +6,18 @@ import CompanyBussines from './CompanyBussines';
 class Devex extends Component {
   render() {
     return (
-			<div className="home__devex">
+      <div className="home__devex group">
+        <span className="diagonal" />
         <a target="_blank" title="Devex detail page" href="https://www.devex.com/">
-  				<span className="diagonal home__devex__diagonal" />
-  				<div className="home__company home__devex__company">
-  					<a className="home__company__mask">
-  						<div className="home__company__wrap">
-                <embed className="home__company__arrow" type="image/svg+xml" src="images/arrow-link-animation.svg" />
-  							<CompanyRole>Product designer &amp; Frontend dev.</CompanyRole>
-  							<CompanyName>Dev<span>ex</span></CompanyName>
-  							<CompanyBussines>Platform for the global<br/>development<br/>community</CompanyBussines>
-  						</div>
-  					</a>
-  				</div>
-  				<img className="home__devex__img" alt="Devex homepage screenshot" src={"images/home-devex.png"} />
+          <div className="home__company-details">
+          <CompanyName>Devex</CompanyName>
+          <CompanyBussines>Platform for the global<br/>development<br/>community</CompanyBussines>
+          <CompanyRole>Product designer &amp; Frontend dev.</CompanyRole>
+          <p>For this development community platform I redesigned the whole experience by changing the information architecture, the interface and the interaction.</p>
+          </div>
+          <img className="home__devex__img" alt="Devex homepage screenshot" src={"images/home-devex.png"} />
         </a>
-			</div>
+      </div>
     );
   }
 }

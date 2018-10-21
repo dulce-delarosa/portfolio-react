@@ -11,12 +11,12 @@ class Hitch extends Component {
         <a href="#/hitch" title="HitchHQ detail page">
     			<img className="home__hitch__img" alt="HitchHQ homepage screenshot" src={"images/home-hitch.png"} />
     			<div className="home__company-details">
-            <p> For this API support platform, my challenge was to translate a techy-complex tasks into intuitive solutions.
+            <CompanyName>Hitch HQ</CompanyName>
+            <CompanyBussines>API support platform</CompanyBussines>
+            <CompanyRole>Lead designer</CompanyRole>
+            <p>For this API support platform, my challenge was to translate a techy-complex tasks into intuitive solutions.
   <br />The design needed to respond efficiently and fast to our tech-savvy users, but also intuitive and frustration-free for the rest of the users that needed to use our tool.
             </p>
-          <CompanyName>Hitch HQ</CompanyName>
-          <CompanyBussines>API support platform</CompanyBussines>
-          <CompanyRole>Lead designer</CompanyRole>
           </div>
         </a>
 			</div>
