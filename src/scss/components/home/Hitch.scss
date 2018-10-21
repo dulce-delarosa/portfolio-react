@@ -5,22 +5,12 @@
 		@media(min-width: $responsive-lg){
 			padding: 170px 0 200px;
 		}
-		@include element('company') {
-			right: 5%;
-			top: 14%;
-			@media(min-width:500px) {
-				top: 7%;
-			}
-			@media(min-width: $responsive-lg){
-				right: 0;
-				top: 30%;
-			}
-		}
 		@include element('img') {
 			position: relative;
 			width: 100%;
 			@media(min-width: $responsive-lg){
-				left: 62px;
+				float: left;
+				left: 0;
 				width: 75%;
 				z-index: 100;
 			}

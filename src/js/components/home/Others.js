@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CompanyRole from './CompanyRole';
 import CompanyName from './CompanyName';
-import CompanyDescription from './CompanyDescription';
+import CompanyBussines from './CompanyBussines';
 
 class Others extends Component {
   render() {

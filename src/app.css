@@ -206,16 +206,26 @@ footer {
 
 .home {
   overflow: hidden; }
-  .home__company__mask {
-    color: #000000; }
-    @media (min-width: 1023px) {
-      .home__company__mask {
-        transition: background-color 0.5s ease;
-        background: white;
-        display: block;
-        height: inherit; }
-        .home__company__mask:hover {
-          background: #ffff00; } }
+  .home__company-details {
+    float: right;
+    position: relative;
+    right: 4%;
+    width: 20%; }
+    .home__company-details p {
+      color: #000000;
+      font-size: 1.309em;
+      margin-bottom: 10%; }
+    .home__company-details__title {
+      color: #000000;
+      display: block;
+      font-size: 0.707em;
+      text-transform: uppercase; }
+    .home__company-details__subtitle {
+      border-top: 1px solid #DEDEDE;
+      color: #000000;
+      display: inline-block;
+      margin-bottom: 5%;
+      padding-top: 5px; }
 
 .home__header {
   display: -ms-flexbox;
@@ -250,22 +260,13 @@ footer {
   @media (min-width: 1023px) {
     .home__hitch {
       padding: 170px 0 200px; } }
-  .home__hitch__company {
-    right: 5%;
-    top: 14%; }
-    @media (min-width: 500px) {
-      .home__hitch__company {
-        top: 7%; } }
-    @media (min-width: 1023px) {
-      .home__hitch__company {
-        right: 0;
-        top: 30%; } }
   .home__hitch__img {
     position: relative;
     width: 100%; }
     @media (min-width: 1023px) {
       .home__hitch__img {
-        left: 62px;
+        float: left;
+        left: 0;
         width: 75%;
         z-index: 100; } }
 

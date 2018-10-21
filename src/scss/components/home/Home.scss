@@ -1,24 +1,27 @@
 .home {
 	overflow: hidden;
-	@include element('company') {
-		@include element('mask') {
+	@include element('company-details') {
+		float: right;
+		position: relative;
+		right: 4%;
+		width: 20%;
+		p {
 			color: $color-text;
-			@media(min-width: $responsive-lg){
-				transition: background-color 0.5s ease;
-				background: white;
-				display: block;
-				height: inherit;
-				&:hover {
-					background: $color-highlight;
-				}
-			}
+			font-size: 1.309em;
+			margin-bottom: 10%;
 		}
-		@include element('arrow') {
-			@media(min-width: $responsive-lg) {
-				position: absolute;
-				right: 0;
-				top: 30px;
-			}
+		@include element('title') {
+			color: $color-text;
+			display: block;
+			font-size: $font-sm;
+			text-transform: uppercase;
+		}
+		@include element('subtitle') {
+			border-top: 1px solid $color-border;
+			color: $color-text;
+			display: inline-block;
+			margin-bottom: 5%;
+			padding-top: 5px;
 		}
 	}
 }

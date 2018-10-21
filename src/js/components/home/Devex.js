@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import CompanyRole from './CompanyRole';
 import CompanyName from './CompanyName';
-import CompanyDescription from './CompanyDescription';
+import CompanyBussines from './CompanyBussines';
 
 class Devex extends Component {
   render() {
@@ -15,7 +15,7 @@ class Devex extends Component {
                 <embed className="home__company__arrow" type="image/svg+xml" src="images/arrow-link-animation.svg" />
   							<CompanyRole>Product designer &amp; Frontend dev.</CompanyRole>
   							<CompanyName>Dev<span>ex</span></CompanyName>
-  							<CompanyDescription>Platform for the global<br/>development<br/>community</CompanyDescription>
+  							<CompanyBussines>Platform for the global<br/>development<br/>community</CompanyBussines>
   						</div>
   					</a>
   				</div>
