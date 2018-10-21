@@ -1,8 +1,16 @@
 .home {
 	overflow: hidden;
+
 	@include element('company-details') {
 		position: relative;
-		width: 20%;
+		@media (min-width: $responsive-lg) {
+			width: 20%;
+		}
+		@media (max-width: $responsive-lg) {
+			p {
+				display: none;
+			}
+		}
 		p {
 			color: $color-text;
 			line-height: $font-md;

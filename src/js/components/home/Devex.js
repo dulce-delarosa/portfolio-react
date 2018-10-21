@@ -14,6 +14,7 @@ class Devex extends Component {
           <CompanyBussines>Platform for the global<br/>development<br/>community</CompanyBussines>
           <CompanyRole>Product designer &amp; Frontend dev.</CompanyRole>
           <p>For this development community platform I redesigned the whole experience by changing the information architecture, the interface and the interaction.</p>
+          <img className="home__company-details__arrow" src="images/arrow-link.svg" alt="Arrow" />
           </div>
           <img className="home__devex__img" alt="Devex homepage screenshot" src={"images/home-devex.png"} />
         </a>

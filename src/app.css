@@ -206,8 +206,13 @@ footer {
 .home {
   overflow: hidden; }
   .home__company-details {
-    position: relative;
-    width: 20%; }
+    position: relative; }
+    @media (min-width: 1023px) {
+      .home__company-details {
+        width: 20%; } }
+    @media (max-width: 1023px) {
+      .home__company-details p {
+        display: none; } }
     .home__company-details p {
       color: #000000;
       line-height: 1.618em;

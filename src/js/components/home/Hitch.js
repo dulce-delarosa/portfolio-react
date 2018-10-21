@@ -17,6 +17,7 @@ class Hitch extends Component {
             <p>For this API support platform, my challenge was to translate a techy-complex tasks into intuitive solutions.
   <br />The design needed to respond efficiently and fast to our tech-savvy users, but also intuitive and frustration-free for the rest of the users that needed to use our tool.
             </p>
+            <img className="home__company-details__arrow" src="images/arrow-link.svg" alt="Arrow" />
           </div>
         </a>
 			</div>
