@@ -1,10 +1,14 @@
 {
-  "main.css": "static/css/main.0f31a703.css",
-  "main.css.map": "static/css/main.0f31a703.css.map",
-  "main.js": "static/js/main.b334ac91.js",
-  "main.js.map": "static/js/main.b334ac91.js.map",
-  "static/media/Avenir-Black.otf": "static/media/Avenir-Black.b1abb878.otf",
-  "static/media/Avenir-Black.ttf": "static/media/Avenir-Black.ea6bc2fc.ttf",
-  "static/media/Avenir-Roman.otf": "static/media/Avenir-Roman.b1d7c6e0.otf",
-  "static/media/Avenir-Roman.ttf": "static/media/Avenir-Roman.3a678e95.ttf"
+  "main.css": "/static/css/main.ff7d1114.chunk.css",
+  "main.js": "/static/js/main.a5b3dabb.chunk.js",
+  "main.js.map": "/static/js/main.a5b3dabb.chunk.js.map",
+  "static/js/1.2d57825e.chunk.js": "/static/js/1.2d57825e.chunk.js",
+  "static/js/1.2d57825e.chunk.js.map": "/static/js/1.2d57825e.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/app.css": "/static/media/Avenir-Black.b1abb878.otf",
+  "static/css/main.ff7d1114.chunk.css.map": "/static/css/main.ff7d1114.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.6294a64701b6cb9ade4ff0ce83f31dea.js": "/precache-manifest.6294a64701b6cb9ade4ff0ce83f31dea.js",
+  "service-worker.js": "/service-worker.js"
 }

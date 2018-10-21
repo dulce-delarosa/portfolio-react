@@ -4,10 +4,6 @@
 
     <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M11.9987409,4.65685425 L11.9987409,-1.15463195e-14 L17.6555952,5.65685425 L11.9987409,11.3137085 L11.9987409,6.65685425 L0,6.65685425 L0,4.65685425 L11.9987409,4.65685425 Z" id="Combined-Shape" fill="#000000"></path>
-        <animate attributeName="opacity" attributeType="XML"
-          from="30"  to="470"
-          begin="0s" dur="5s"
-          repeatCount="indefinite"/>
     </g>
 
 </svg>
